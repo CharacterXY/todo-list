@@ -1,0 +1,140 @@
+body {
+  background-color: #781585;
+  font-family: monospace;
+  font-size: 16px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#todoText li:last-child {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  margin-left: auto;
+}
+
+li {
+  width: 100%;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  background-color: #ac16ac;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 6px 20px rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+}
+
+.container-heading {
+  border-bottom: 1px solid rgb(151, 131, 145);
+  justify-content: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: rgb(161, 158, 158);
+}
+
+label {
+  color: rgb(236, 236, 236);
+  font-size: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+form {
+  width: 100%;
+  padding-bottom: 0.6em;
+}
+
+button {
+  width: 90px;
+  height: 26px;
+  outline: none;
+  border: none;
+  background-color: rgb(123, 6, 129);
+  color: beige;
+  font-size: 12px;
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+label {
+  padding-right: 20px;
+}
+
+input {
+  margin-right: 20px;
+  outline: none;
+  width: 280px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  color: rgb(199, 173, 199);
+  border-radius: 2px;
+  border: none;
+  background-color: #ac16ac;
+  border-bottom: 1px solid wheat;
+  transform: all 0.3s linear;
+}
+
+input[type="text"] {
+  padding-left: 1em;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+}
+
+.container-body {
+  background-color: rgb(145, 67, 145);
+  max-width: 100%;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.container-body li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-container {
+  display: flex;
+  align-self: center;
+  justify-self: end;
+
+  gap: 6px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.btn-update,
+.btn-delete {
+  outline: none;
+  border: none;
+  background-color: rgb(66, 10, 66);
+  color: white;
+  font-size: 12px;
+
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 1em;
+}
